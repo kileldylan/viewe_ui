@@ -55,6 +55,9 @@
  * Subjects
  *----------------*/
 
+lv_subject_t subject_arc;
+lv_subject_t subject_slider;
+
 /**********************
  *      MACROS
  **********************/
@@ -82,6 +85,9 @@ void viewe_ui_init_gen(const char * asset_path)
     /*----------------
      * Subjects
      *----------------*/
+    lv_subject_init_int(&subject_arc, 50);
+    lv_subject_init_int(&subject_slider, 50);
+
     /*----------------
      * Translations
      *----------------*/
@@ -92,6 +98,8 @@ void viewe_ui_init_gen(const char * asset_path)
     /* Register fonts */
 
     /* Register subjects */
+    lv_xml_register_subject(NULL, "subject_arc", &subject_arc);
+    lv_xml_register_subject(NULL, "subject_slider", &subject_slider);
 
     /* Register callbacks */
 #endif

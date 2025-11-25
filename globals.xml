@@ -1,25 +1,27 @@
 <globals>
-    <api>
-        <!-- Add <enumdefs> here -->
-    </api>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
 
-    <consts>
-        <!-- Add <px>, <int>, <color> etc here -->
-    </consts>
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
 
-    <styles>
-        <!-- Add <style> tags here -->
-    </styles>
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
 
-    <subjects>
-        <!-- Add <int>, <string>, or <float> subjects here -->
-    </subjects>
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+		<int name="subject_arc" value="50" />
+		<int name="subject_slider" value="50" />
+	</subjects>
 
-    <images>
-        <!-- Add <file> or <data> tags here -->
-    </images>
+	<images>
+		<!-- Add <file> or <data> tags here -->
+	</images>
 
-    <fonts>
-        <!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
-    </fonts>
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+	</fonts>
 </globals>

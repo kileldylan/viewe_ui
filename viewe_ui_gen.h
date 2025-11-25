@@ -55,6 +55,9 @@ extern "C" {
  * Subjects
  *----------------*/
 
+extern lv_subject_t subject_arc;
+extern lv_subject_t subject_slider;
+
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
@@ -76,6 +79,9 @@ void viewe_ui_init_gen(const char * asset_path);
 /**********************
  *   POST INCLUDES
  **********************/
+
+/*Include all the widget and components of this library*/
+#include "screens/sample_gen.h"
 
 #ifdef __cplusplus
 } /*extern "C"*/
